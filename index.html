@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Awan Dental Studio | Premium Dentistry Islamabad</title>
+    <meta name="description" content="A boutique dental experience where medical precision meets artistic craftsmanship. Islamabad's choice for dental excellence." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Professional Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      :root {
+        --color-charcoal: #2C2C2C;
+        --color-rose: #D4A5A5;
+        --color-sage: #8A9A5B;
+        --color-cream: #F5F5DC;
+        --color-gold: #C5A059;
+      }
+
+      body { 
+        font-family: 'Inter', sans-serif; 
+        background-color: var(--color-cream);
+        color: var(--color-charcoal);
+        overflow-x: hidden;
+      }
+
+      h1, h2, h3, .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--color-cream);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--color-sage);
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-charcoal);
+      }
+
+      .glass-effect { 
+        background: rgba(245, 245, 220, 0.85); 
+        backdrop-filter: blur(20px); 
+        -webkit-backdrop-filter: blur(20px);
+      }
+
+      .animate-float { 
+        animation: float 8s ease-in-out infinite; 
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-25px); }
+      }
+
+      /* Smooth Section Transitions */
+      section {
+        position: relative;
+        z-index: 10;
+      }
+
+      /* Premium Card Effects */
+      .shadow-3xl {
+        box-shadow: 0 50px 100px -20px rgba(44, 44, 44, 0.08), 0 30px 60px -30px rgba(44, 44, 44, 0.1);
+      }
+      .shadow-4xl {
+        box-shadow: 0 70px 120px -20px rgba(44, 44, 44, 0.12), 0 40px 80px -40px rgba(44, 44, 44, 0.15);
+      }
+
+      /* Utility for non-serif bold text */
+      .font-black {
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-[#F5F5DC] text-[#2C2C2C] antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
